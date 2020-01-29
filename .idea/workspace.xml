@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b35a53b4-3a15-4e4e-86e6-80ebaf5e963e" name="Default Changelist" comment="" />
+    <list default="true" id="b35a53b4-3a15-4e4e-86e6-80ebaf5e963e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/NioFileSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/NioFileServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/handler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/handler/NioServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcommon/src/com/franco/util/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/fcommon/src/com/franco/util/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcommon/src/com/franco/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/fcommon/src/com/franco/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fcommon/com/franco/util/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fcommon/com/franco/util/ConfigProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fcommon/com/franco/util/IOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fcommon/com/franco/util/IOUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/franco/NioDemoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/franco/NioDemoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/franco/nio/FileSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/FileSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/franco/nio/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/socketDemo/FileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/franco/nio/io/FileChannelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/franco/nio/io/FileChannelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/franco/NioDemoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/franco/NioDemoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/franco/nio/connect/FileSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/franco/nio/connect/FileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/franco/nio/io/FileChannelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/franco/nio/io/FileChannelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/franco/TestFileChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/franco/TestFileChannel.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +34,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,11 +53,20 @@
     <scope name="mine" pattern="src:com.franco.*" />
   </component>
   <component name="ProjectId" id="1WkMwF9gQpJMayflx58TABo63Nq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/test-classes" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33793104" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/test-classes" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestNioChannel">
     <configuration name="TestFileChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.franco.TestFileChannel" />
       <module name="fscrip" />
@@ -62,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNioChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.franco.nio.TestNioChannel" />
+      <module name="fscrip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.franco.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestNioChannel" />
         <item itemvalue="Application.TestFileChannel" />
       </list>
     </recent_temporary>
@@ -80,5 +126,23 @@
       <updated>1579689375625</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/test" />
+    </ignored-roots>
   </component>
 </project>

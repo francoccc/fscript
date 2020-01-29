@@ -1,6 +1,7 @@
 package com.franco.nio.io;
 
 import com.franco.common.InternalLogger;
+import com.franco.util.IOUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -58,11 +59,7 @@ public class FileChannelManager {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            if(oChannel != null) {
-                try {
-                    oChannel.close();
-                } catch (IOException e) { }
-            }
+            IOUtil.closeGracefully(oChannel);
         }
     }
 

@@ -1,4 +1,6 @@
-package com.franco.nio.connect;
+package com.franco.nio.socketDemo;
+
+import com.franco.NioDemoConfig;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +23,11 @@ public class FileServer implements Runnable {
     private String filePath;
 
     private ServerSocketChannel serverSocketChannel;
+
+    public FileServer() {
+        this(NioDemoConfig.SERVER_SOCKET_HOST,
+                NioDemoConfig.SERVER_SOCKET_PORT);
+    }
 
     public FileServer(String path, int port) {
         this.filePath = path;

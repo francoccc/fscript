@@ -14,6 +14,9 @@ import java.nio.charset.StandardCharsets;
  */
 public class IOUtil {
 
+    /** file separator */
+    public static String fileSeparator = System.getProperty("file.separator");
+
     /**
      * 取得当前类路径下的res完整路径
      * url.getPath()获取编码后url路径

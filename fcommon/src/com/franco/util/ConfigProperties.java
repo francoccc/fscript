@@ -15,7 +15,7 @@ import java.util.Properties;
 public class ConfigProperties {
 
     private String propertyName = "";
-    private Properties properties;
+    private Properties properties = new Properties();
 
     public ConfigProperties() { }
 
@@ -48,7 +48,9 @@ public class ConfigProperties {
     public String readProperty(String key) {
         Objects.requireNonNull(key, "the key is null");
         String value = "";
-        properties.get(key);
+        if(properties.containsKey(key)) {
+            value = (String) properties.get(key);
+        }
         return value;
     }
 

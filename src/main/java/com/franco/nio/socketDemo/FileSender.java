@@ -1,4 +1,4 @@
-package com.franco.nio.connect;
+package com.franco.nio.socketDemo;
 
 import com.franco.nio.io.FileChannelManager;
 
